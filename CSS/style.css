@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../image/Home2.jpg) no-repeat;
+  background-size: cover;
+
+}
+.navbar{
+  background-color: #0009;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar ul{
+    float: right;
+	list-style-type: none;
+	margin: 8px;
+
+}
+
+.navbar ul li{
+	display: inline-block;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+.navbar ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.navbar ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.navbar{
+	max-width: 100%;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+
+
+}
+.carousel-main{
+  margin:40px 250px 40px 250px;
+}
+span.carousel-control-next-icon {
+    margin-right: 250px;
+}
+span.carousel-control-prev-icon{
+    margin-left: 250px;
+}
+.about{
+  overflow: hidden;
+  text-align: center;
+  padding: 120px;
+}
+.about-section{
+  margin-bottom: 40px;
+}
+.about-section a{
+  display: inline-block;
+  margin: 0px 30px;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 50%;
+  
+}
+.about-section a img{
+  width: 120%;
+ 
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border-radius: 10%;
+}
+.about-section h3{
+	font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  color: #000000;
+}
+ h2{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+table{
+  width: 80%;
+  margin: 30px 200px 0px 200px;
+  text-align: center;
+}
+.profile a{
+  display: inline-block;
+  margin: 0px 30px;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile{
+  margin-bottom: 40px;
+}
+.profile a img{
+  width: 120%;
+}
